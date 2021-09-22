@@ -2,6 +2,7 @@
 //Program:Circle Trail Blazer
 //Date of Initiation: Tuesday, September 14 2021
 //Date of Completion: Tuesday, September 21 2021
+
 int opacity = 255;
 
 void setup(){
