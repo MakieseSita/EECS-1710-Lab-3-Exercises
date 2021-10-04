@@ -1,3 +1,6 @@
+//Programmer: Makiese Light Sita
+//Program: Bird Soaring Adventure Game
+//Started: Sunday, September 26 2021
 
 
 PImage[] gif;
