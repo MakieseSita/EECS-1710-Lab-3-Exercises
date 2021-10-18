@@ -51,7 +51,7 @@ orangebird_numbframes = 6;
   i = i+1;
    }
    
-   eaglenumbframes = 5;
+   eaglenumbframes = 6;
  eaglebird_gif = new PImage[eaglenumbframes];
  
   int ea = 0;
