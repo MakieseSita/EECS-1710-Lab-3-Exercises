@@ -1,6 +1,7 @@
 //Programmer: Makiese Light Sita
 //Program: Color Switching Stopwatch 
 //Started: Monday, October 11 2021
+//Completed: Sunday, October 17 2021
 
 float rot1 = 0;
 float rot2 = 0;
@@ -19,10 +20,10 @@ int redcolor = 234;
    PImage neonCity;
    PImage[] gif;
    int cityFrames;
-   int cityX;
-   int cityY;
+   int spaceX;
+   int spaceY;
    int f;
-   PImage Space_neoncityholder;
+   PImage Space_BACKGROUND;
    PImage OneMinSCREEN; 
    int OneMin_X;
    int OneMin_Y;
@@ -35,10 +36,10 @@ int redcolor = 234;
    
 void setup() {
   size(800, 600); 
-   Space_neoncityholder = loadImage("Pixel_space.jpg");
-   OneMinSCREEN= loadImage("Clock Countdown 1 Min Signal Title Card by Light Sita (Fully Reoptimised Pixel Render).png");
-   TwoMinSCREEN = loadImage("Clock Countdown 2 Min Signal Title Card by Light Sita (Fully Reoptimised Pixel Render).png");
-  TimeUPSCREEN = loadImage("Clock Countdown 0 Minute Signal Title Card by Light Sita (Fully Reoptimised Pixel Render).png");
+   Space_BACKGROUND = loadImage("Pixel_space.jpg"); //Space background imported from the internet.
+   OneMinSCREEN= loadImage("Clock Countdown 1 Min Signal Title Card by Light Sita (Fully Reoptimised Pixel Render).png");       //Pixel Title Cards pixel painted by me, Makiese Light Sita.
+   TwoMinSCREEN = loadImage("Clock Countdown 2 Min Signal Title Card by Light Sita (Fully Reoptimised Pixel Render).png");      //Pixel Title Cards pixel painted by me, Makiese Light Sita.
+  TimeUPSCREEN = loadImage("Clock Countdown 0 Minute Signal Title Card by Light Sita (Fully Reoptimised Pixel Render).png");    //Pixel Title Cards pixel painted by me, Makiese Light Sita.
    gif = new PImage[cityFrames];
  //Space_neoncityholder = loadImage("Pixel_space.jpeg");
   /*int i = 0;
@@ -151,7 +152,6 @@ void draw() {
    
     redcolor = 114; //turns the stopclock green
      rot2 = 12;
-     rot1 = 360;
      setTimeUPMessage();
   }
   }
@@ -162,14 +162,14 @@ void draw() {
   
   void neoncityBackground(){
   
-   image(Space_neoncityholder, cityX, cityY, 800, 600);
+   image(Space_BACKGROUND, spaceX, spaceY, 800, 600);
   
   
  /* println(frameCount);
   if (frameCount % 3 == 0) f = f + 1;
   if (f == cityFrames) f = 0;*/
-fill(0, 0);
-rect(0, 0, width, height);
+/*fill(0, 0);
+rect(0, 0, width, height);*/
   
   
   
