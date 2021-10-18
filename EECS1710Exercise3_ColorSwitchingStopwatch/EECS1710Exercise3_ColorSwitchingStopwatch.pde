@@ -137,25 +137,25 @@ void draw() {
   }*/
   
     if (rot1 > 0 && rot1 < 359){
-     set2MinMessage();
+     set2MinMessage();                //turns the stopclock yellow and pink
   
 }
   
   if (rot1 > 359 && rot1 > 0){
    
-    redcolor = redcolor/2; //turns the stopclock green
+    redcolor = redcolor/2; //turns the stopclock green and blue
      rot2 = 6;
      set1MinMessage();
   }
   
   if (rot1 > 359*2 && rot1 > 359){
    
-    redcolor = 114; //turns the stopclock green
+    redcolor = 114; //turns the stopclock yellow green and purple
      rot2 = 12;
      setTimeUPMessage();
   }
   }
-  if (!keyPressed){rot1 = 0; rot2 = 0; redcolor = 234;}
+  if (!keyPressed){rot1 = 0; rot2 = 0; redcolor = 234;} //turns the stopclock back to its original colors
 
   }
   
