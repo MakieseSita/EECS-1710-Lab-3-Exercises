@@ -4,7 +4,7 @@ SoundFile file1;
 String[] song ={"StarShip Galaxy Boss Battle by Light Sita.wav", "STARSHIP GALAXY Main Menu by Light Sita.wav"};    //Sets up Starship Galaxy Boss music composed and arranged entirely by me.
 
 //Programmer: Makiese Light Sita
-//Program: StarshipShooter Game
+//Program: STARSHIP GALAXY: A Starship Shooter Game
 //Started: Wednesday, October 20 2021
 //Completed: Friday, October 29 2021
 int shotDirectionY;
@@ -30,7 +30,7 @@ int enemyY = 5;
 int enemysizeX = 400;
 int enemysizeY = 400;
 int enemybluecolor = 255;
-int BOSShealthbarCount = 8800;
+int BOSShealthbarCount = 6600;
 PImage darkMatterBall;
 int missileX = 900;
 int missileY = 10;
@@ -174,8 +174,8 @@ missile6Movement = -30;
 /*spacemovement = 0;
 spaceX = 0; 
 spaceY = 0;*/
-playerHealthCount = 0;
-BOSShealthbarCount = 8800;
+//playerHealthCount = 100;
+BOSShealthbarCount = 0;
 /*file1.stop();
 file2 = new SoundFile(this, "STARSHIP GALAXY Main Menu by Light Sita.wav");
   file2.play();
@@ -220,7 +220,7 @@ text("GAME OVER!!! ", 203, 400);
 spaceX = 0; 
 spaceY = 0;*/
 playerHealthCount = 0;
-BOSShealthbarCount = 8800;
+//BOSShealthbarCount = 6600;
  }
 
 }
@@ -253,7 +253,7 @@ text("GAME OVER!!! ", 203, 400);
 spaceX = 0; 
 spaceY = 0;*/
 playerHealthCount = 0;
-BOSShealthbarCount = 8800;
+//BOSShealthbarCount = 6600;
  }
 }
 
@@ -286,7 +286,7 @@ spacemovement = 0;
 spaceX = 0; 
 spaceY = 0;*/
 playerHealthCount = 0;
-BOSShealthbarCount = 8800;
+//BOSShealthbarCount = 6600;
  }
 }
 
@@ -318,7 +318,7 @@ text("GAME OVER!!! ", 203, 400);
 spaceX = 0; 
 spaceY = 0;*/
 playerHealthCount = 0;
-BOSShealthbarCount = 8800;
+//BOSShealthbarCount = 6600;
  }
 }
 
@@ -350,7 +350,7 @@ text("GAME OVER!!! ", 203, 400);
 spaceX = 0; 
 spaceY = 0;*/
 playerHealthCount = 0;
-BOSShealthbarCount = 8800;
+//BOSShealthbarCount = 6600;
  }
 }
 
@@ -382,6 +382,6 @@ text("GAME OVER!!! ", 203, 400);
 spaceX = 0; 
 spaceY = 0;*/
 playerHealthCount = 0;
-BOSShealthbarCount = 8800;
+//BOSShealthbarCount = 6600;
  }
 }
