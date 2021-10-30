@@ -4,7 +4,7 @@ SoundFile file1;
 String[] song ={"StarShip Galaxy Boss Battle by Light Sita.wav", "STARSHIP GALAXY Main Menu by Light Sita.wav"};    //Sets up Starship Galaxy Boss music composed and arranged entirely by me.
 
 //Programmer: Makiese Light Sita
-//Program: STARSHIP GALAXY: A Starship Shooter Game
+//Program: StarshipShooter Game
 //Started: Wednesday, October 20 2021
 //Completed: Friday, October 29 2021
 int shotDirectionY;
@@ -165,12 +165,12 @@ if (BOSShealthbarCount <= 0){
     fill(color(0, 255, 255));
 textSize(134);
 text("YOU WIN!!! ", 203, 400);
-missileMovement = -30;
-missile2Movement = -30;
-missile3Movement =-30;
-missile4Movement = -30;                //Stops dropping dark matter ball attacks.
-missile5Movement = -30;
-missile6Movement = -30;
+missileMovement = -300;
+missile2Movement = -300;
+missile3Movement =-300;
+missile4Movement = -300;                //Stops dropping dark matter ball attacks.
+missile5Movement = -300;
+missile6Movement = -300;
 /*spacemovement = 0;
 spaceX = 0; 
 spaceY = 0;*/
