@@ -93,7 +93,7 @@ class LetterGenerator {
     d = createShape();
     d.beginShape();
     d.translate(50, 10);
-    d.texture(shark);
+    d.texture(space);
     d.vertex(0, 0, 0, 0);
     d.vertex(-11, 313, -11, 313);
     d.vertex(202, 230, 202, 230);
