@@ -1,7 +1,7 @@
 //Programmer: Makiese Light Sita
 //Program: Midi Color Changer
 //Started: Tuesday, December 7 2021
-//Finished: Tuesday, December 7 2021
+//Finished: Wednesday, December 8 2021
 import themidibus.*;
 PImage MUSICNOTESIMAGE;
 
