@@ -5,6 +5,7 @@
 import themidibus.*;
 PImage MUSICNOTESIMAGE;
 
+//Based on the midi example shown during EECS 1710 Fall 2021 lecture which is not found in GitHub for Week 13
 MidiBus myBus;
 int channel = 0;
 int pitch = 51; 
